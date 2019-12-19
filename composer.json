@@ -1,0 +1,22 @@
+{
+    "name": "cakasim/payone-woocommerce-plugin",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabian Böttcher",
+            "email": "me@cakasim.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Cakasim/php-payone-sdk.git"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "cakasim/payone-sdk": "dev-develop"
+    }
+}
