@@ -9,6 +9,11 @@
         }
     ],
     "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Payone\\": "src/"
+        }
+    },
     "repositories": [
         {
             "type": "vcs",

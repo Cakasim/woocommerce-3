@@ -16,7 +16,7 @@ define( 'PAYONE_PLUGIN_VERSION', '1.5.1' );
 define( 'PAYONE_PLUGIN_PATH', __DIR__ );
 define( 'PAYONE_VIEW_PATH', PAYONE_PLUGIN_PATH . '/views' );
 
-require_once 'src/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 	$payonePlugin = new \Payone\Plugin();
